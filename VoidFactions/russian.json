@@ -12,7 +12,7 @@
     "joined": "Присоединился",
     "sessionPlaytime": "Время сессии",
     "totalPlaytime": "Общее время",
-    "factionJoined": "Время во фракции",
+    "factionJoined": "Время в банде",
 
     "balance": "Баланс:",
     "itemCount": ":x:/:max: предметов",
@@ -27,12 +27,12 @@
 
     "assets": "Активы",
 
-    "createFaction": "Создать фракцию",
-    "joinFaction": "Присоедниться к фракции",
+    "createFaction": "Создать банду",
+    "joinFaction": "Присоедниться к банде",
     
-    "createFactionOrJoin": "Создайте фракцию или присоединитесь к существующей",
-    "noFactionText": "Вы можете либо создать новую фракцию и стать её боссом, либо присоединиться к уже существующей..",
-    "factionCreateCost": "Стоимость создания новой фракции :color: :money:.",
+    "createFactionOrJoin": "Создайте банду или вступите",
+    "noFactionText": "Вы можете либо создать новую банду и стать её боссом, либо присоединиться к уже существующей..",
+    "factionCreateCost": "Стоимость создания новой банды :color: :money:.",
 
     "select": "Выбрать",
     "create": "Создать",
@@ -60,10 +60,10 @@
     "newFaction": "Новая фракция",
     "newRank": "Новый ранг",
 
-    "faction": "Фракция",
-    "factionName": "Имя фракции",
+    "faction": "Банка",
+    "factionName": "Имя банды",
 
-    "editFaction": "Изменить фракцию :name:",
+    "editFaction": "Изменить банду :name:",
     "editRank": "Изменить ранг :name:",
     "editUpgrade": "Изменить улучшение :name:",
     "editReward": "Изменить награду :name:",
@@ -76,17 +76,17 @@
 
     "name": "Название",
     "description": "Описание",
-    "factionTag": "Тэг фракции",
+    "factionTag": "Тэг банды",
     "subfactionOf": "Подфракция",
-    "factionColor": "Цвет фракции",
+    "factionColor": "Цвет банды",
     "icon": "Иконка",
-    "factionIcon": "Иконка фракции",
+    "factionIcon": "Иконка банды",
     "maxMembers": "Макс участников",
 
     "canCaptureTerritory": "Может захватывать точки",
     "showOnBoard": "Показывать на доске лидеров",
     "inviteRequired": "Требуется приглашение",
-    "isDefaultFaction": "Фракция по умолчанию",
+    "isDefaultFaction": "Банды по умолчанию",
 
     "inviteOnly": "Только по приглашению",
 
@@ -131,7 +131,7 @@
 
     "setRanks": "Выдать ранг",
 
-    "manageFaction": "Управляйте фракцией",
+    "manageFaction": "Управляйте бандой",
     "purchaseUpgrades": "Покупка улучшений",
 
     "canWithdrawMoney": "Снять денег",
@@ -148,8 +148,8 @@
     "yes": "Да",
     "no": "Нет",
 
-    "onlyFactionMembers": "Только члены фракции",
-    "factionAndSubfactions": "Фракция и подфракции",
+    "onlyFactionMembers": "Только члены банды",
+    "factionAndSubfactions": "Банды и подфракции",
     "minimumLevel": "Минимальный уровень",
 
     "upgradeCreated": "Успешно созданное улучшение :name:!",
@@ -230,9 +230,9 @@
 
     "properties": "Свойства",
 
-    "factionCreated": "Фракция :name: успешно создана!",
-    "factionUpdated": "Фракция :name: успешно отредактирована!",
-    "factionDeleted": "Фракция :name: успешно удалена!",
+    "factionCreated": "Банда :name: успешно создана!",
+    "factionUpdated": "Банда :name: успешно отредактирована!",
+    "factionDeleted": "Банда :name: успешно удалена!",
     "memberCountDemoted": "(:count: участников было понижено)",
 
     "rankCreated": "Ранг :name: был успешно создан!",
@@ -250,7 +250,7 @@
     "memberLeftFaction": "Вы покинули :faction:",
 
     "memberKicked": "Участник :name: был выгнан!",
-    "memberAdded": "Игрок :name: успешно добавлен во фракцию :faction:!",
+    "memberAdded": "Игрок :name: успешно добавлен в банду :faction:!",
 
     "itemDeposited": "Успешно внесён предмет :name:!",
     "itemWithdrawn": "Успешно снят предмет :name:!",
@@ -275,7 +275,7 @@
     "maxMembersLimit": "Максимально число участников слишком велик!",
     "noJobs": "В этом ранге нет вакансий!",
 
-    "maxMembersErr": "Фракция заполнена!",
+    "maxMembersErr": "Банда заполнена!",
     "maxRankMembersErr": "Ранг полон!",
     "minLevelErr": "У вас нет необходимого уровня!",
 
@@ -295,24 +295,24 @@
 
     "unlockedReward": "Награда :reward: открыта!",
 
-    "cantJoinNoDefaultFactions": "Для начала Фракцию необходимо настроить! Сделайте это и снова попробуйте.",
-    "noDefaultFactions": "Фракций по умолчанию нет! Их нужно будет настроить!",
+    "cantJoinNoDefaultFactions": "Для начала Банду необходимо настроить! Сделайте это и снова попробуйте.",
+    "noDefaultFactions": "Банд по умолчанию нет! Их нужно будет настроить!",
 
 	"deleteRankPrompt": "Вы уверены, что хотите удалить ранг :rank:? Это действие будет необратимым!",
-	"deleteFactionPrompt": "Вы уверены, что хотите удалить фракцию :faction:? Это действие будет необратимым!",
-	"disbandFactionPrompt": "Вы уверены, что хотите распустить свою фракцию? Это действие будет необратимым!",
-	"disbandFaction":"Расформировать фракцию",
+	"deleteFactionPrompt": "Вы уверены, что хотите удалить банду :faction:? Это действие будет необратимым!",
+	"disbandFactionPrompt": "Вы уверены, что хотите распустить свою банду? Это действие будет необратимым!",
+	"disbandFaction":"Расформировать банду",
 	"switch": "Сменить",
-	"switchType": "Сменить тип фракции",
-	"switchTypePrompt": "Вы уверены, что хотите сменить тип фракции? Все фракции будут удалены! Ваш сервер будет перезагружен после смены типа!",
+	"switchType": "Сменить тип банды",
+	"switchTypePrompt": "Вы уверены, что хотите сменить тип банды? Все фракции будут удалены! Ваш сервер будет перезагружен после смены типа!",
 	"restartingIn": "Перезапуск сервера через: время: секунды!",
 	"changingJobRestricted": "У вас нет доступа к этой работе!",
 	"upgradePurchased":"Вы приобрели обновление :name:!",
 	"inviteMember": "Пригласить игрока",
-	"factionInvite": "Приглашение фракции",
+	"factionInvite": "Приглашение банд",
 	"invitedTo": "Вас пригласили",
 	"memberCount": ":x:/:total: участников",
-	"factionCount": ":x: фракций",
+	"factionCount": ":x: банд",
 	"unlock": "Разблокировать",
 	"neededToUnlock": "Необходимо для разблокировки",
 	"details": "Подробности",
@@ -324,10 +324,10 @@
 	"now": "Сейчас",
 	"back" : "Назад",
 	"save": "Сохранить",
-	"deleteFaction": "Удалить фракцию",
+	"deleteFaction": "Удалить банду",
 	"deleteRank": "Удалить ранг",
 	"leave": "Выйти",
-	"leaveFaction": "Выйти из фракции",
+	"leaveFaction": "Выйти из банды",
 	"accept": "Подтвердить",
 	"deny": "Отказаться",
 	"cancel": "Отмена",
@@ -349,8 +349,8 @@
 
 	"cantAfford": "Вы не можете это сделать!",
 
-	"staticFactionsContent": "Администрация может создавать фракции и решать, кто будет лидером и какие права есть у каждого ранга.",
-	"dynamicFactionsContent": "Игроки могут создать свою фракцию и иметь полный контроль над ней. Никто не скажет им, как ею руководить.",
+	"staticFactionsContent": "Администрация может создавать банды и решать, кто будет лидером и какие права есть у каждого ранга.",
+	"dynamicFactionsContent": "Игроки могут создать свою банду и иметь полный контроль над ней. Никто не скажет им, как ею руководить.",
 
 	"xp_npckilled": "Персонаж умер",
 	"xp_npckilled_desc": "Сколько опыта вы получаете за убийство NPC",
